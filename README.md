@@ -7,7 +7,7 @@ A CLI tool to update Epicor IDs in Lake Street.
 ## Usage
 
 ```
-python3 app.py
+python3 app.py <portal_id> <epicor_id>
 ```
 
 ## Notes to candidate
