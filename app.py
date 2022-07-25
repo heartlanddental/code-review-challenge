@@ -49,7 +49,6 @@ while req.json()["result"]["epicor_id"] != str(new_Epicor_id):
         json={"epicor_id": new_Epicor_id}
     )
     print(req.status_code)
-
     req = requests.get(url, headers={"Content-Type": "application/json", 'Authorization': "Bearer {}".format(accessKey)})
 
 print("Epicor is changed")
